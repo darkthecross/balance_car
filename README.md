@@ -7,4 +7,4 @@
 
 This project contains an environment implemented with pybullet.
 
-There's also a controller to make the car stand still.
+There's also a controller to make the car stand straight.
