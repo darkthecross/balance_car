@@ -14,7 +14,7 @@ c = Controller()
 
 f = 0
 
-p.startStateLogging(p.STATE_LOGGING_VIDEO_MP4, "log.mp4")
+#p.startStateLogging(p.STATE_LOGGING_VIDEO_MP4, "log.mp4")
 
 while (p.isConnected() and f < 2400):
   pos, quat = p.getBasePositionAndOrientation(rbt)
@@ -34,4 +34,4 @@ while (p.isConnected() and f < 2400):
   time.sleep(1. / 240.)
   f = f + 1
 
-p.stopStateLogging()
+#p.stopStateLogging()
